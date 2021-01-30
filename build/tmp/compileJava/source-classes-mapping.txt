@@ -1,0 +1,14 @@
+springframework/springwebfluxrest/repositories/CategoryRepository.java
+ springframework.springwebfluxrest.repositories.CategoryRepository
+springframework/springwebfluxrest/domain/Category.java
+ springframework.springwebfluxrest.domain.Category
+ springframework.springwebfluxrest.domain.Category$CategoryBuilder
+springframework/springwebfluxrest/domain/Vendor.java
+ springframework.springwebfluxrest.domain.Vendor
+ springframework.springwebfluxrest.domain.Vendor$VendorBuilder
+springframework/springwebfluxrest/bootstrap/Bootstrap.java
+ springframework.springwebfluxrest.bootstrap.Bootstrap
+springframework/springwebfluxrest/SpringWebfluxRestApplication.java
+ springframework.springwebfluxrest.SpringWebfluxRestApplication
+springframework/springwebfluxrest/repositories/VendorRepository.java
+ springframework.springwebfluxrest.repositories.VendorRepository
