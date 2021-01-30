@@ -12,3 +12,5 @@ springframework/springwebfluxrest/SpringWebfluxRestApplication.java
  springframework.springwebfluxrest.SpringWebfluxRestApplication
 springframework/springwebfluxrest/repositories/VendorRepository.java
  springframework.springwebfluxrest.repositories.VendorRepository
+springframework/springwebfluxrest/controllers/CategoryController.java
+ springframework.springwebfluxrest.controllers.CategoryController
