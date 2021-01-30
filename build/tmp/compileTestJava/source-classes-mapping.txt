@@ -1,0 +1,2 @@
+springframework/springwebfluxrest/SpringWebfluxRestApplicationTests.java
+ springframework.springwebfluxrest.SpringWebfluxRestApplicationTests
