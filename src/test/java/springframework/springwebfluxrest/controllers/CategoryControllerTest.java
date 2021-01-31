@@ -1,7 +1,7 @@
 package springframework.springwebfluxrest.controllers;
 
 import org.junit.Before;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.mockito.BDDMockito;
 import org.mockito.Mockito;
 import org.springframework.test.web.reactive.server.WebTestClient;
@@ -34,6 +34,6 @@ public class CategoryControllerTest {
     void getById() {
         BDDMockito.given(categoryRepository.findById("someid")).willReturn(Mono.just(Category.builder().description("Cat").build()));
 
-        WebTestClient.get().uri("/api/v1/categories/someid").exchange().expectBody(Category.class);
+        webTestClient.get().uri("/api/v1/categories/someid").exchange().expectBody(Category.class);
     }
 }
